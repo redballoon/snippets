@@ -24,6 +24,19 @@ tar -czvf {zip-file-name-with-extension} {directory}
 tar -xzvf {directory}
 ```
 
+
+## Remote
+---
+
+###
+```
+scp {user}@{server}:{remote-path} {local-path}
+
+e.g:
+scp thanos_marvel@dum-d-di-app-001:/opt/hybrid/bin/custom/rando/bin/rando.jar /Users/thanos/Downloads
+```
+
+
 ## Misc
 ---
 ### Image to DataURI
